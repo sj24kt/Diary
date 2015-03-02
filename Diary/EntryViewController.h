@@ -8,6 +8,40 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewEntryViewController : UIViewController
+// forward class declaration to have access to the DiaryEntry type w/o importing it's class file, then add DiaryEntry property
+@class DiaryEntry;
+
+@interface EntryViewController : UIViewController
+
+@property (strong, nonatomic) DiaryEntry *entry;
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

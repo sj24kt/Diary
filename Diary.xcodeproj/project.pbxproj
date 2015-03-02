@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1817258E1AA4FF39006702EF /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1817258D1AA4FF39006702EF /* Launch Screen.xib */; };
+		18BB09121AA2D01600D82B2D /* EntryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB09111AA2D01600D82B2D /* EntryListViewController.m */; };
+		18BB09151AA3B3F500D82B2D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB09141AA3B3F500D82B2D /* NavigationController.m */; };
+		18BB09181AA3CBD200D82B2D /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BB09171AA3CBD200D82B2D /* EntryCell.m */; };
+		18BB091A1AA4D82400D82B2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB09191AA4D82400D82B2D /* QuartzCore.framework */; };
+		18BB091C1AA4DABC00D82B2D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB091B1AA4DABC00D82B2D /* CoreLocation.framework */; };
+		18E9ED5C1AA288E70075BF80 /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B8BF1AA00D2700C60713 /* Diary.xcdatamodeld */; };
 		18F3B88B1A9FF63A00C60713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B88A1A9FF63A00C60713 /* main.m */; };
 		18F3B88E1A9FF63A00C60713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B88D1A9FF63A00C60713 /* AppDelegate.m */; };
-		18F3B8911A9FF63A00C60713 /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B88F1A9FF63A00C60713 /* Diary.xcdatamodeld */; };
-		18F3B8941A9FF63A00C60713 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B8931A9FF63A00C60713 /* ViewController.m */; };
-		18F3B8971A9FF63A00C60713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3B8951A9FF63A00C60713 /* Main.storyboard */; };
 		18F3B8991A9FF63A00C60713 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3B8981A9FF63A00C60713 /* Images.xcassets */; };
-		18F3B89C1A9FF63A00C60713 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F3B89A1A9FF63A00C60713 /* LaunchScreen.xib */; };
 		18F3B8A81A9FF63A00C60713 /* DiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B8A71A9FF63A00C60713 /* DiaryTests.m */; };
+		18F3B8B31A9FF92F00C60713 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B8B21A9FF92F00C60713 /* CoreDataStack.m */; };
+		18F3B8B71A9FF9AA00C60713 /* dylib1.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3B8B41A9FF9AA00C60713 /* dylib1.o */; };
+		18F3B8B81A9FF9AA00C60713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3B8B51A9FF9AA00C60713 /* Foundation.framework */; };
+		18F3B8B91A9FF9AA00C60713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3B8B61A9FF9AA00C60713 /* UIKit.framework */; };
+		18F3B8BC1A9FF9D400C60713 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3B8BA1A9FF9D400C60713 /* CoreData.framework */; };
+		18F3B8BD1A9FF9D400C60713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F3B8BB1A9FF9D400C60713 /* CoreGraphics.framework */; };
+		18F3B8C41AA0107700C60713 /* DiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B8C31AA0107700C60713 /* DiaryEntry.m */; };
+		18F3B8C61AA0194A00C60713 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3B8C51AA0194A00C60713 /* MainStoryboard.storyboard */; };
+		18F3B8C91AA01B7100C60713 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3B8C81AA01B7100C60713 /* EntryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +40,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1817258D1AA4FF39006702EF /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		18BB09101AA2D01600D82B2D /* EntryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryListViewController.h; path = ../EntryListViewController.h; sourceTree = "<group>"; };
+		18BB09111AA2D01600D82B2D /* EntryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryListViewController.m; path = ../EntryListViewController.m; sourceTree = "<group>"; };
+		18BB09131AA3B3F500D82B2D /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		18BB09141AA3B3F500D82B2D /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		18BB09161AA3CBD200D82B2D /* EntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryCell.h; sourceTree = "<group>"; };
+		18BB09171AA3CBD200D82B2D /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
+		18BB09191AA4D82400D82B2D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18BB091B1AA4DABC00D82B2D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		18F3B8851A9FF63A00C60713 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3B8891A9FF63A00C60713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F3B88A1A9FF63A00C60713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F3B88C1A9FF63A00C60713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F3B88D1A9FF63A00C60713 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F3B8901A9FF63A00C60713 /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
-		18F3B8921A9FF63A00C60713 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18F3B8931A9FF63A00C60713 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18F3B8961A9FF63A00C60713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F3B8981A9FF63A00C60713 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		18F3B89B1A9FF63A00C60713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18F3B8A11A9FF63A00C60713 /* DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3B8A61A9FF63A00C60713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F3B8A71A9FF63A00C60713 /* DiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiaryTests.m; sourceTree = "<group>"; };
+		18F3B8B11A9FF92F00C60713 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		18F3B8B21A9FF92F00C60713 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		18F3B8B41A9FF9AA00C60713 /* dylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.o; path = usr/lib/dylib1.o; sourceTree = SDKROOT; };
+		18F3B8B51A9FF9AA00C60713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18F3B8B61A9FF9AA00C60713 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18F3B8BA1A9FF9D400C60713 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18F3B8BB1A9FF9D400C60713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18F3B8C01AA00D2700C60713 /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
+		18F3B8C21AA0107700C60713 /* DiaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryEntry.h; sourceTree = SOURCE_ROOT; };
+		18F3B8C31AA0107700C60713 /* DiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntry.m; sourceTree = SOURCE_ROOT; };
+		18F3B8C51AA0194A00C60713 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18F3B8C71AA01B7100C60713 /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		18F3B8C81AA01B7100C60713 /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BB091C1AA4DABC00D82B2D /* CoreLocation.framework in Frameworks */,
+				18BB091A1AA4D82400D82B2D /* QuartzCore.framework in Frameworks */,
+				18F3B8BC1A9FF9D400C60713 /* CoreData.framework in Frameworks */,
+				18F3B8BD1A9FF9D400C60713 /* CoreGraphics.framework in Frameworks */,
+				18F3B8B71A9FF9AA00C60713 /* dylib1.o in Frameworks */,
+				18F3B8B81A9FF9AA00C60713 /* Foundation.framework in Frameworks */,
+				18F3B8B91A9FF9AA00C60713 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				18F3B8871A9FF63A00C60713 /* Diary */,
+				18F3B8BE1A9FF9E200C60713 /* Frameworks */,
 				18F3B8A41A9FF63A00C60713 /* DiaryTests */,
 				18F3B8861A9FF63A00C60713 /* Products */,
 			);
@@ -85,12 +122,22 @@
 			children = (
 				18F3B88C1A9FF63A00C60713 /* AppDelegate.h */,
 				18F3B88D1A9FF63A00C60713 /* AppDelegate.m */,
-				18F3B8921A9FF63A00C60713 /* ViewController.h */,
-				18F3B8931A9FF63A00C60713 /* ViewController.m */,
-				18F3B8951A9FF63A00C60713 /* Main.storyboard */,
+				18F3B8B11A9FF92F00C60713 /* CoreDataStack.h */,
+				18F3B8B21A9FF92F00C60713 /* CoreDataStack.m */,
+				18F3B8C21AA0107700C60713 /* DiaryEntry.h */,
+				18F3B8C31AA0107700C60713 /* DiaryEntry.m */,
+				18F3B8C71AA01B7100C60713 /* EntryViewController.h */,
+				18F3B8C81AA01B7100C60713 /* EntryViewController.m */,
+				18BB09101AA2D01600D82B2D /* EntryListViewController.h */,
+				18BB09111AA2D01600D82B2D /* EntryListViewController.m */,
+				18BB09161AA3CBD200D82B2D /* EntryCell.h */,
+				18BB09171AA3CBD200D82B2D /* EntryCell.m */,
+				18BB09131AA3B3F500D82B2D /* NavigationController.h */,
+				18BB09141AA3B3F500D82B2D /* NavigationController.m */,
+				18F3B8C51AA0194A00C60713 /* MainStoryboard.storyboard */,
 				18F3B8981A9FF63A00C60713 /* Images.xcassets */,
-				18F3B89A1A9FF63A00C60713 /* LaunchScreen.xib */,
-				18F3B88F1A9FF63A00C60713 /* Diary.xcdatamodeld */,
+				1817258D1AA4FF39006702EF /* Launch Screen.xib */,
+				18F3B8BF1AA00D2700C60713 /* Diary.xcdatamodeld */,
 				18F3B8881A9FF63A00C60713 /* Supporting Files */,
 			);
 			path = Diary;
@@ -120,6 +167,20 @@
 				18F3B8A61A9FF63A00C60713 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F3B8BE1A9FF9E200C60713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BB091B1AA4DABC00D82B2D /* CoreLocation.framework */,
+				18BB09191AA4D82400D82B2D /* QuartzCore.framework */,
+				18F3B8BA1A9FF9D400C60713 /* CoreData.framework */,
+				18F3B8BB1A9FF9D400C60713 /* CoreGraphics.framework */,
+				18F3B8B41A9FF9AA00C60713 /* dylib1.o */,
+				18F3B8B51A9FF9AA00C60713 /* Foundation.framework */,
+				18F3B8B61A9FF9AA00C60713 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F3B8971A9FF63A00C60713 /* Main.storyboard in Resources */,
-				18F3B89C1A9FF63A00C60713 /* LaunchScreen.xib in Resources */,
+				18F3B8C61AA0194A00C60713 /* MainStoryboard.storyboard in Resources */,
 				18F3B8991A9FF63A00C60713 /* Images.xcassets in Resources */,
+				1817258E1AA4FF39006702EF /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F3B8911A9FF63A00C60713 /* Diary.xcdatamodeld in Sources */,
+				18F3B8B31A9FF92F00C60713 /* CoreDataStack.m in Sources */,
 				18F3B88E1A9FF63A00C60713 /* AppDelegate.m in Sources */,
-				18F3B8941A9FF63A00C60713 /* ViewController.m in Sources */,
+				18F3B8C91AA01B7100C60713 /* EntryViewController.m in Sources */,
+				18BB09181AA3CBD200D82B2D /* EntryCell.m in Sources */,
+				18F3B8C41AA0107700C60713 /* DiaryEntry.m in Sources */,
+				18E9ED5C1AA288E70075BF80 /* Diary.xcdatamodeld in Sources */,
+				18BB09151AA3B3F500D82B2D /* NavigationController.m in Sources */,
+				18BB09121AA2D01600D82B2D /* EntryListViewController.m in Sources */,
 				18F3B88B1A9FF63A00C60713 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,25 +312,6 @@
 			targetProxy = 18F3B8A21A9FF63A00C60713 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		18F3B8951A9FF63A00C60713 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F3B8961A9FF63A00C60713 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18F3B89A1A9FF63A00C60713 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F3B89B1A9FF63A00C60713 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18F3B8A91A9FF63A00C60713 /* Debug */ = {
@@ -416,6 +463,7 @@
 				18F3B8AD1A9FF63A00C60713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F3B8AE1A9FF63A00C60713 /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -424,16 +472,17 @@
 				18F3B8B01A9FF63A00C60713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		18F3B88F1A9FF63A00C60713 /* Diary.xcdatamodeld */ = {
+		18F3B8BF1AA00D2700C60713 /* Diary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				18F3B8901A9FF63A00C60713 /* Diary.xcdatamodel */,
+				18F3B8C01AA00D2700C60713 /* Diary.xcdatamodel */,
 			);
-			currentVersion = 18F3B8901A9FF63A00C60713 /* Diary.xcdatamodel */;
+			currentVersion = 18F3B8C01AA00D2700C60713 /* Diary.xcdatamodel */;
 			path = Diary.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

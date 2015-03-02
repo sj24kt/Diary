@@ -8,6 +8,41 @@
 
 #import <UIKit/UIKit.h>
 
+// forward class entry
+@class DiaryEntry;
+
 @interface EntryCell : UITableViewCell
 
++ (CGFloat)heightForEntry:(DiaryEntry *)entry;
+
+- (void)configureCellForEntry:(DiaryEntry *)entry;
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
